@@ -1,0 +1,28 @@
+echo "# gitbush" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/JulianL18/gitbush.git
+git push -u origin main
+
+______________________Configurar GitLocal______________________
+
+git init
+git add .
+git commit -m "Primer Commit"
+
+git config user.email "julianlopera20032@gmail.com"
+git config user.name "Julián Lopera"
+git remote add origin https://github.com/JulianL18/gitbush.git
+git push -u origin main
+
+Como actualizar el repositorio
+
+git add .
+git commit -m "Segundo Commit"
+git push -u origin
+
+Clonar
+
+git clone https://github.com/JulianL18/gitbush.git
